@@ -16,3 +16,5 @@ Or I could do some kind of api testing with playwright, I'll see if that is the 
 
 https://www.youtube.com/watch?v=3s-RfwvijpY 
 ^^copy this video
+
+quick test

@@ -13,6 +13,10 @@ also do it with test containers dot net : https://github.com/testcontainers/test
 
 Huh this could be a TEST CONTAINERS + .NET + GITHUB ACTIONS PROJECT
 
+so the process is: .net integration test is written and will be deployed inside of testcontainer which will be created through github actions during a git push
+
+esentially replicate this: https://www.youtube.com/watch?v=ZLwZ3Cdt9Vs (wriiten documentation here: https://testcontainers.com/guides/testing-an-aspnet-core-web-app/)
+
 
 If time is available then do some thing with playwright
 If i do use playwright, then I can create a simple playwright script that gets the website data in puts them in the postgresql database. Pretty good plan tbh. I'm gonna execute this going forward. Playwright can go on the data engineering extern on resume, and c# testing can go on the novo project on basic resume

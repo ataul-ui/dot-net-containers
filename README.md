@@ -6,6 +6,12 @@ I will be using this project to gain fimiliarity with C# and other dot net thing
 follow this tutorial:
 https://www.youtube.com/watch?v=8IRNC7qZBmk 
 honestly just follow whtat that tutorial said, don't bother using my own postgres database from novo project
+^^ his source code is behind a paywall
+follow this tutorial instead: https://medium.com/geekculture/integration-test-with-docker-and-net6-564cb4922cfd 
+
+also do it with test containers dot net : https://github.com/testcontainers/testcontainers-dotnet 
+
+Huh this could be a TEST CONTAINERS + .NET + GITHUB ACTIONS PROJECT
 
 
 If time is available then do some thing with playwright

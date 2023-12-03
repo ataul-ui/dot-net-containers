@@ -2,7 +2,11 @@
 
 I will be using this project to gain fimiliarity with C# and other dot net things as it relates to cloud
 
-!!! CREATE A DOCKER HEALTH CHECK USING C#, and use github actions to do CI/CD and c# !!!
+!!! CREATE A DOCKER HEALTH CHECK USING C#, and use github actions to do CI/CD and c# and JUST USE THE POSTGRESQL DATABASE CONTAINER I USED BEFORE AS TESTING!!!
+follow this tutorial:
+https://www.youtube.com/watch?v=8IRNC7qZBmk 
+
+
 If time is available then do some thing with playwright
 
 I will be using playwright here, I'll do come automation stuff with it I guess, maybe even create a bot

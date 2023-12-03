@@ -9,6 +9,7 @@ honestly just follow whtat that tutorial said, don't bother using my own postgre
 
 
 If time is available then do some thing with playwright
+If i do use playwright, then I can create a simple playwright script that gets the website data in puts them in the postgresql database. Pretty good plan tbh. I'm gonna execute this going forward. Playwright can go on the data engineering extern on resume, and c# testing can go on the novo project on basic resume
 
 I will be using playwright here, I'll do come automation stuff with it I guess, maybe even create a bot
 Or I could do some kind of api testing with playwright, I'll see if that is the best course of action for this project

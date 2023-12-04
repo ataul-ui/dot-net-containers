@@ -2443,6 +2443,22 @@
           }
         }
       },
+      "Testcontainers.PostgreSql/3.6.0": {
+        "type": "package",
+        "dependencies": {
+          "Testcontainers": "3.6.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/Testcontainers.PostgreSql.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/Testcontainers.PostgreSql.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "xunit/2.4.2": {
         "type": "package",
         "dependencies": {
@@ -7538,6 +7554,25 @@
         "testcontainers.nuspec"
       ]
     },
+    "Testcontainers.PostgreSql/3.6.0": {
+      "sha512": "G3BZCOAu+lGf8YF7ZoeGxyXJPVtY2vSLZiTDQIYX3OkXRmU9Sci4gTbUK1WqdM/z2O5cMBEpsq7Mn0PDL0xjNA==",
+      "type": "package",
+      "path": "testcontainers.postgresql/3.6.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE",
+        "README.md",
+        "docs/banner.png",
+        "docs/logo.png",
+        "lib/netstandard2.0/Testcontainers.PostgreSql.dll",
+        "lib/netstandard2.0/Testcontainers.PostgreSql.xml",
+        "lib/netstandard2.1/Testcontainers.PostgreSql.dll",
+        "lib/netstandard2.1/Testcontainers.PostgreSql.xml",
+        "testcontainers.postgresql.3.6.0.nupkg.sha512",
+        "testcontainers.postgresql.nuspec"
+      ]
+    },
     "xunit/2.4.2": {
       "sha512": "6Mj73Ont3zj2CJuoykVJfE0ZmRwn7C+pTuRP8c4bnaaTFjwNG6tGe0prJ1yIbMe9AHrpDys63ctWacSsFJWK/w==",
       "type": "package",
@@ -7689,6 +7724,7 @@
       "Microsoft.AspNetCore.Mvc.Testing >= 8.0.0",
       "Microsoft.NET.Test.Sdk >= 17.6.0",
       "Testcontainers >= 3.6.0",
+      "Testcontainers.PostgreSql >= 3.6.0",
       "coverlet.collector >= 6.0.0",
       "xunit >= 2.4.2",
       "xunit.runner.visualstudio >= 2.4.5"
@@ -7740,6 +7776,10 @@
             "version": "[17.6.0, )"
           },
           "Testcontainers": {
+            "target": "Package",
+            "version": "[3.6.0, )"
+          },
+          "Testcontainers.PostgreSql": {
             "target": "Package",
             "version": "[3.6.0, )"
           },

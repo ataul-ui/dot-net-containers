@@ -4,10 +4,10 @@ I will be using this project to gain fimiliarity with C# and other dot net thing
 
 !!! CREATE A DOCKER HEALTH CHECK USING C#, and use github actions to do CI/CD and c# and JUST USE THE POSTGRESQL DATABASE CONTAINER I USED BEFORE AS TESTING!!!
 follow this tutorial:
-https://www.youtube.com/watch?v=8IRNC7qZBmk 
-honestly just follow whtat that tutorial said, don't bother using my own postgres database from novo project
-^^ his source code is behind a paywall
-follow this tutorial instead: https://medium.com/geekculture/integration-test-with-docker-and-net6-564cb4922cfd 
+https://www.youtube.com/watch?v=tj5ZCtvgXKY&ab_channel=MilanJovanovi%C4%87 
+
+
+follow this tutorial too if needed: https://medium.com/geekculture/integration-test-with-docker-and-net6-564cb4922cfd 
 
 also do it with test containers dot net : https://github.com/testcontainers/testcontainers-dotnet 
 

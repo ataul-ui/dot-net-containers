@@ -1,7 +1,9 @@
 # dot-net-iot-project
 
-I will be using this project to gain fimiliarity with C# and other dot net things as it relates to cloud
+I will be using this project to gain fimiliarity with C# and other dot net things as it relates to cloud    ALSO THE TITLE WILL BE CHANGED TO .NET BASED CLOUD-NATIVE FRONTEND
 ooooh this could be the frontend of the alzhiemer's project that is written in c# instead, I could create a login and stuff, and the output will be a json that through azure functions as an api sends the json data to the distributed data pipeline (the docker containers in that pipeline will be in a kubernetes cluster pod and is deployed using terraform)
+
+So terraform will be in my work experience resume and this will be in my projects section in resume
 
 quick test
 
@@ -9,9 +11,9 @@ another quick test
 
 ## process on how I'll go about the project for this repository
 
-1. create a c#/.net container (does this even needs to be a container tho? idk it might add unecessary technical overhead right now) that sends a message, and push to azure container registry
+1. create a c#/.net frontend that sends a message
 2. create azure api management to catch that message and parse it and sends it to an azure function that will then send it to me as an email notification (an azure function will be configured as an api in azure api management)
-3. if errors come up then debug
+3. if errors come up then debug (use github actions for CI/CD tests to debug) 
 4. Maybe create a simple frontend using streamlit to display the results of/using azure function that became an api
 5. Monitor everything on azure monitor and maybe set up prometheus to create some cool dashboards
 

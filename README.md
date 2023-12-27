@@ -8,7 +8,7 @@ another quick test
 
 ## process on how I'll go about the project for this repository
 
-1. create a c#/.net container that sends a message (and push to azure container registry)
+1. create a c#/.net container (does this even needs to be a container tho? idk it might add unecessary technical overhead right now) that sends a message, and push to azure container registry
 2. create azure api management to catch that message and parse it and sends it to an azure function that will then send it to me as an email notification (an azure function will be configured as an api in azure api management)
 3. if errors come up then debug
 4. Maybe create a simple frontend using streamlit to display the results of/using azure function that became an api

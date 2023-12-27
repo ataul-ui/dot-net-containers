@@ -2,6 +2,8 @@
 
 I will be using this project to gain fimiliarity with C# and other dot net things as it relates to cloud
 
+quick test
+
 Yeah do something with c# and playwright in this, absolutely forget about golang tbh, it sucks and I have no idea where to use golang
 
 !!! CREATE A DOCKER HEALTH CHECK USING C#, and use github actions to do CI/CD and c# and JUST USE THE POSTGRESQL DATABASE CONTAINER I USED BEFORE AS TESTING!!!

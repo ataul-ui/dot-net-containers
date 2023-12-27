@@ -2,6 +2,8 @@
 
 I will be using this project to gain fimiliarity with C# and other dot net things as it relates to cloud
 
+Yeah do something with c# and playwright in this, absolutely forget about golang tbh, it sucks and I have no idea where to use golang
+
 !!! CREATE A DOCKER HEALTH CHECK USING C#, and use github actions to do CI/CD and c# and JUST USE THE POSTGRESQL DATABASE CONTAINER I USED BEFORE AS TESTING!!!
 follow this tutorial:
 https://www.youtube.com/watch?v=tj5ZCtvgXKY&ab_channel=MilanJovanovi%C4%87 
@@ -13,6 +15,10 @@ ITS OWN THING
 In that case producer will be .net written in c# and consumer will be written in golang
 
 Or it can be the other way around, consumer will be .net written in c# and producer will be written in golang
+
+
+
+
 
 
 follow this tutorial too if needed: https://medium.com/geekculture/integration-test-with-docker-and-net6-564cb4922cfd 

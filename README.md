@@ -6,6 +6,20 @@ quick test
 
 another quick test
 
+## process on how I'll go about this project
+
+1. create a container that sends a message to a certain url (and push to azure container registry)
+2. create api management to catch that message and parse it
+3. prototype a kubernetes pod and put the container in it and use ingress and try to send to azure api managemtn
+4. if errors come up then debug
+5. test everything in terraform I guess (this will be in the other repository though)
+
+
+
+
+
+## notes
+
 Yeah do something with c# and playwright in this, absolutely forget about golang tbh, it sucks and I have no idea where to use golang
 
 !!! CREATE A DOCKER HEALTH CHECK USING C#, and use github actions to do CI/CD and c# and JUST USE THE POSTGRESQL DATABASE CONTAINER I USED BEFORE AS TESTING!!!

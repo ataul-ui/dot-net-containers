@@ -6,17 +6,22 @@ quick test
 
 another quick test
 
-## process on how I'll go about this project
+## process on how I'll go about the project for this repository
+
+1. create a c#/.net container that sends a message (and push to azure container registry)
+2. create azure api management to catch that message and parse it and sends it to an azure function that will then send it to me as an email notification (an azure function will be configured as an api in azure api management)
+3. if errors come up then debug
+4. Maybe create a simple frontend using streamlit to display the results of/using azure function that became an api
+5. Monitor everything on azure monitor and maybe set up prometheus to create some cool dashboards
+
+
+## process on how I'll go about the project for the combined project with kubernetes, ingress and terraform
 
 1. create a c#/.net container that sends a message to an ingress controller (and push to azure container registry)
 2. create azure api management to catch that message and parse it and sends it to an azure function that will then send it to me as an email notification (an azure function will be configured as an api in azure api management)
 3. prototype a kubernetes pod and put the container in it and use ingress and try to send to azure api managemtn
 4. if errors come up then debug
 5. test everything in terraform I guess (this will be in the other repository though)
-
-
-
-
 
 ## notes
 

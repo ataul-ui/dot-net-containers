@@ -2,6 +2,10 @@
 
 dotnet on vscode tutorial: https://code.visualstudio.com/docs/languages/dotnet
 
+even better tutorial: https://learn.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-vscode 
+
+INCLUDE PLAYWRIGHT HERE TO DO WEB SCRAPING OF SOME WEBSITE AND THEN TURN IT INTO A RANDOM JSON MESSAGE TO BE SENT TO AZURE API MANAGEMENT, MAYBE I CAN EVEN USE OPENAI API FOR THIS??? WE'LL SEE. MAYBE AZURE FUNCTION WILL INCLUDE THE OPENAI API TO MAKE SENSE OF THE INFORMATION I SENT IT
+
 I will be using this project to gain fimiliarity with C# and other dot net things as it relates to cloud    ALSO THE TITLE WILL BE CHANGED TO .NET BASED CLOUD-NATIVE FRONTEND
 ooooh this could be the frontend of the alzhiemer's project that is written in c# instead, I could create a login and stuff, and the output will be a json that through azure functions as an api sends the json data to the distributed data pipeline (the docker containers in that pipeline will be in a kubernetes cluster pod and is deployed using terraform)
 

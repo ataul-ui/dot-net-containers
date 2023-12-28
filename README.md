@@ -1,5 +1,7 @@
 # dot-net-iot-project
 
+
+ehhh whatever, if this repo gives me trouble I can always delete it and create a new one
 dotnet on vscode tutorial: https://code.visualstudio.com/docs/languages/dotnet
 
 even better tutorial: https://learn.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore?tabs=net70&pivots=development-environment-vscode 

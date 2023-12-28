@@ -1,5 +1,7 @@
 # dot-net-iot-project
 
+dotnet on vscode tutorial: https://code.visualstudio.com/docs/languages/dotnet
+
 I will be using this project to gain fimiliarity with C# and other dot net things as it relates to cloud    ALSO THE TITLE WILL BE CHANGED TO .NET BASED CLOUD-NATIVE FRONTEND
 ooooh this could be the frontend of the alzhiemer's project that is written in c# instead, I could create a login and stuff, and the output will be a json that through azure functions as an api sends the json data to the distributed data pipeline (the docker containers in that pipeline will be in a kubernetes cluster pod and is deployed using terraform)
 

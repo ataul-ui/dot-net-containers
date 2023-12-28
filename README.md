@@ -11,7 +11,11 @@ another quick test
 
 ## process on how I'll go about the project for this repository
 
-1. create a c# azure web app and download the code and edit the code such that sends a json message (actually when I create the web app is can be created as a docker container so maybe write this as a container?? idk we'll see)  ** also if I do create this as a docker container then I can push it to azure container service and give permission access for azure function to run it or something like that **
+1. create a c# azure web app and download the code and edit the code such that sends a json message (actually when I create the web app is can be created as a docker container so maybe write this as a container?? idk we'll see)  
+
+** also if I do create this as a docker container then I can push it to azure container service and give permission access for azure function to run it or something like that **  
+
+** so it also turns out there is github integration for the web app, in that case it doesn't need to be a docker container, i can do ci/cd tests on the code using github actions **
 2. create azure api management to catch that message and parse it and sends it to an azure function that will then send it to me as an email notification (an azure function will be configured as an api in azure api management)
 3. if errors come up then debug (use github actions for CI/CD tests to debug) 
 4. Maybe create a simple frontend using streamlit to display the results of/using azure function that became an api

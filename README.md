@@ -11,7 +11,7 @@ another quick test
 
 ## process on how I'll go about the project for this repository
 
-1. create a c#/.net frontend that sends a message
+1. create a c# azure web app and download the code and edit the code such that sends a json message
 2. create azure api management to catch that message and parse it and sends it to an azure function that will then send it to me as an email notification (an azure function will be configured as an api in azure api management)
 3. if errors come up then debug (use github actions for CI/CD tests to debug) 
 4. Maybe create a simple frontend using streamlit to display the results of/using azure function that became an api

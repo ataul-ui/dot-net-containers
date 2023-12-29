@@ -1,6 +1,7 @@
 # dot-net-iot-project
 
 create a minimal api not mvc api
+follow this tutorial: https://www.youtube.com/watch?v=xWNVoVug4G8 
 
 
 ehhh whatever, if this repo gives me trouble I can always delete it and create a new one

@@ -1,5 +1,7 @@
 # dot-net-iot-project
 
+create a minimal api not mvc api
+
 
 ehhh whatever, if this repo gives me trouble I can always delete it and create a new one
 dotnet on vscode tutorial: https://code.visualstudio.com/docs/languages/dotnet
